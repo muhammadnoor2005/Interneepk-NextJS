@@ -1,0 +1,57 @@
+body{
+  font-family:'League Spartan',sans-serif;
+  margin: 0;
+  background-color: wheat;
+}
+.homeDiv{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* single btn */
+.homeDiv div{
+  cursor: pointer;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  width: 10%;
+  padding: max(2vw,2vh);
+  transition: background-color 0.3s ease;
+}
+
+/* Profile button */
+.profileBtn{  
+  color: rgb(53, 53, 53);
+  background-color: rgb(255, 247, 232);
+  
+}
+.profileBtn:hover{
+  background-color: rgb(219, 148, 17);
+}
+
+.logoutBtn{
+  margin-top: 1vw;
+  color: white;
+  background-color: crimson;
+}
+.logoutBtn:hover{
+  background-color: rgb(99, 2, 21);
+}
+
+/* Profile styles */
+
+.profileDiv{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.profileDiv img{
+  border-radius: 100%;
+}
